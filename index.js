@@ -126,7 +126,7 @@ function startRecursive(sum = 0) {
 
   // Then finally spit out total collect sum .
   // Your response should be "Total: 4950"
-  return new Promise(async resolve => {
+  return new Promise(resolve => {
     if(users.length == 0){
       return resolve(sum)
     }
